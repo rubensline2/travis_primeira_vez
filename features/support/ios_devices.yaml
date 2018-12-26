@@ -1,0 +1,17 @@
+ios_devices:
+  'ipad_air' : iPad Air
+  'ipad_air_2' : iPad Air 2
+  'ipad_pro_13' : iPad Pro (12.9 inch)
+  'ipad_pro_10' : iPad Pro (9.7 inch)
+  'ipad_retina' : iPad Retina
+  'iphone_5' : iPhone 5
+  'iphone_5s' : iPhone 5s
+  'iphone_6' : iPhone 6
+  'iphone_6+' : iPhone 6 Plus
+  'iphone_6s' : iPhone 6s
+  'iphone_6s+' : iPhone 6s Plus
+  'iphone_7' : iPhone 7
+  'iphone_7+' : iPhone 7 Plus
+  'iphone_se' : iPhone SE
+  'iphone_8' : iPhone 8
+  'iphone_8+' : iPhone 8 Plus

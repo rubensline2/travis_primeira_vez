@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="4" time="250.945674" name="Login">
+<testcase classname="Login" name="Login with invalid credentials (outline example : | hoangtaiki@gmail.com | 123456 |)" time="167.986379">
+  <system-out>
+    <![CDATA["PASSED ==> Login => Login with invalid credentials, Examples (#1)"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials (outline example : | duchoang.vp@gmil.com | 789101 |)" time="29.705532">
+  <system-out>
+    <![CDATA["PASSED ==> Login => Login with invalid credentials, Examples (#2)"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Login" name="Login with invalid credentials (outline example : | him.lam@gmail.com | nh8712 |)" time="26.586592">
+  <system-out>
+    <![CDATA["PASSED ==> Login => Login with invalid credentials, Examples (#3)"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Login" name="Login with valid credentials" time="26.667171">
+  <system-out>
+    <![CDATA["PASSED ==> Login => Login with valid credentials"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

@@ -1,0 +1,34 @@
+AllCops:
+  TargetRubyVersion: 2.2
+Metrics/LineLength:
+  Max: 128
+Metrics/MethodLength:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Max: 10
+Metrics/PerceivedComplexity:
+  Max: 10
+Metrics/ParameterLists:
+  Max: 6
+Lint/NestedMethodDefinition:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/CommentedKeyword:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  Enabled: false
+Style/BracesAroundHashParameters:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false

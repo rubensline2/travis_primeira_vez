@@ -1,0 +1,464 @@
+[
+  {
+    "uri": "features/login.feature",
+    "id": "login",
+    "keyword": "Feature",
+    "name": "Login",
+    "description": "  Login into system for an user with email and password",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login;login-with-invalid-credentials;;2",
+        "keyword": "Scenario Outline",
+        "name": "Login with invalid credentials",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login_fail",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I fill in email with hoangtaiki@gmail.com",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159947228000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill in password with 123456",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2321991000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I press sign in button",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3879685000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Alert will show error \"The email or password is incorrect\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 473836000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1170964000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-with-invalid-credentials;;3",
+        "keyword": "Scenario Outline",
+        "name": "Login with invalid credentials",
+        "description": "",
+        "line": 13,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login_fail",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I fill in email with duchoang.vp@gmil.com",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22418948000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill in password with 789101",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1947719000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I press sign in button",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3728802000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Alert will show error \"The email or password is incorrect\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464150000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1121601000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-with-invalid-credentials;;4",
+        "keyword": "Scenario Outline",
+        "name": "Login with invalid credentials",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login_fail",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I fill in email with him.lam@gmail.com",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19154185000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill in password with nh8712",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1999389000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I press sign in button",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3879004000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "Alert will show error \"The email or password is incorrect\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408658000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1136090000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "name": "Login with valid credentials",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@login_success",
+            "line": 16
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I fill in email with duchoang.vp@gmail.com",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18706295000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "I fill in password with 12345678",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2297211000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I press sign in button",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4008397000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see welcome view appear",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/login_steps.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528286000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1107788000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.12.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

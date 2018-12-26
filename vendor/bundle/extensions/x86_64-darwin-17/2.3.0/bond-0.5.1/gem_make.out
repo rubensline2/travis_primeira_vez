@@ -1,0 +1,16 @@
+current directory: /Users/bi001560/code/authentication-appium-master/vendor/bundle/gems/bond-0.5.1/ext/readline_line_buffer
+/Users/bi001560/.rvm/rubies/ruby-2.3.7/bin/ruby -r ./siteconf20181224-78307-1gu82zn.rb extconf.rb
+
+current directory: /Users/bi001560/code/authentication-appium-master/vendor/bundle/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/bi001560/code/authentication-appium-master/vendor/bundle/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR="
+echo "This is a dummy extension"
+This is a dummy extension
+
+current directory: /Users/bi001560/code/authentication-appium-master/vendor/bundle/gems/bond-0.5.1/ext/readline_line_buffer
+make "DESTDIR=" install
+echo "This is a dummy extension"
+This is a dummy extension
